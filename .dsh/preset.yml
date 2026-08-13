@@ -1,0 +1,3 @@
+name: Hermes Harness 核心控制平面
+description: Hermes Harness 核心控制平面：任务契约、路由、质量门禁与受监督 Worker 编排。Core control plane of Hermes Harness: task contracts, routing, quality gates, and supervised worker orchestration.
+order: 8

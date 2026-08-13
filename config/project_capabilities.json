@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "projects": {
+    "小说": {
+      "id": "novel_workbench",
+      "routable": true,
+      "domains": ["novel"],
+      "actions": ["analyze", "create", "update"]
+    },
+    "AI剪辑": {
+      "id": "ai_content",
+      "routable": true,
+      "domains": ["sports", "ai_video"],
+      "actions": ["query", "analyze", "create", "update", "publish"]
+    },
+    "内容审计": {
+      "id": "content_audit",
+      "routable": true,
+      "domains": ["website", "content_distribution"],
+      "actions": ["query", "analyze", "create", "update", "publish"]
+    },
+    "数据收集": {
+      "id": "data_collection",
+      "routable": true,
+      "domains": ["knowledge", "research", "data"],
+      "actions": ["query", "analyze", "create", "update"]
+    }
+  }
+}

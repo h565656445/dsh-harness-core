@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "domains": [
+    {
+      "id": "sports",
+      "keywords": ["运动", "比赛", "球队", "阵容", "战术", "赛前", "赛事", "法国对西班牙", "法国vs西班牙"]
+    },
+    {
+      "id": "video",
+      "keywords": ["视频", "口播", "分镜", "剪辑", "封面", "字幕", "短片"]
+    },
+    {
+      "id": "ai_video",
+      "keywords": ["AI剪辑", "AI视频", "导演Agent", "导演 Agent", "文生图", "文生视频", "图生视频", "生视频", "短剧", "漫剧", "小说视频化", "小说转视频"]
+    },
+    {
+      "id": "novel",
+      "keywords": ["小说", "章节", "剧情", "角色", "人物", "世界观", "正文"]
+    },
+    {
+      "id": "website",
+      "keywords": ["网站", "网页", "页面", "会员页", "落地页"]
+    },
+    {
+      "id": "knowledge",
+      "keywords": ["知识库", "Obsidian", "长期记忆", "项目记忆", "笔记"]
+    },
+    {
+      "id": "research",
+      "keywords": ["调研", "研究", "查资料", "来源调查", "资料调研"]
+    },
+    {
+      "id": "content_distribution",
+      "keywords": ["内容分发", "发布包", "平台文案"]
+    },
+    {
+      "id": "data",
+      "keywords": ["数据采集", "热点", "情报", "日报", "GitHub", "github", "开源项目", "项目榜单"]
+    }
+  ],
+  "actions": [
+    {
+      "id": "query",
+      "keywords": ["查找", "查询", "查看", "读取", "检索"]
+    },
+    {
+      "id": "analyze",
+      "keywords": ["分析", "检查", "诊断", "审查", "核验"]
+    },
+    {
+      "id": "create",
+      "keywords": ["制作", "生成", "创建", "撰写", "写", "草稿", "做一条", "做一个", "收集", "采集"]
+    },
+    {
+      "id": "update",
+      "keywords": ["修改", "更新", "优化", "润色", "调整"]
+    },
+    {
+      "id": "publish",
+      "keywords": ["发布", "上线", "公开", "推送"],
+      "side_effect": "publish"
+    },
+    {
+      "id": "delete",
+      "keywords": ["删除", "清空", "销毁"],
+      "side_effect": "delete"
+    },
+    {
+      "id": "pay",
+      "keywords": ["付款", "支付", "购买", "充值"],
+      "side_effect": "payment"
+    },
+    {
+      "id": "account_change",
+      "keywords": ["账号变更", "账户变更", "修改账号", "修改账户", "删除账号", "删除账户", "账号权限", "账户权限", "网站权限", "页面权限", "用户权限", "登录权限", "权限变更", "修改权限", "调整权限", "权限调整"],
+      "side_effect": "account_change"
+    },
+    {
+      "id": "change_core_rules",
+      "keywords": ["修改核心规则", "升级正式规则", "改权限"],
+      "side_effect": "change_core_rules"
+    }
+  ],
+  "channels": [
+    { "id": "short_video_platform", "keywords": ["短视频平台"] },
+    { "id": "xiaohongshu", "keywords": ["小红书"] },
+    { "id": "website", "keywords": ["网站", "网页", "会员页"] },
+    { "id": "obsidian", "keywords": ["Obsidian", "知识库"] }
+  ],
+  "ambiguity_markers": [
+    "那个",
+    "那场",
+    "之前的",
+    "上一个",
+    "优化一下",
+    "处理一下",
+    "弄一下"
+  ]
+}
