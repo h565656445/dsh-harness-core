@@ -11,7 +11,7 @@
     },
     {
       "id": "ai_video",
-      "keywords": ["AI剪辑", "AI视频", "导演Agent", "导演 Agent", "文生图", "文生视频", "图生视频", "生视频", "短剧", "漫剧", "小说视频化", "小说转视频"]
+      "keywords": ["AI内容创作", "AI视频", "导演Agent", "导演 Agent", "文生图", "文生视频", "图生视频", "生视频", "短剧", "漫剧", "小说视频化", "小说转视频"]
     },
     {
       "id": "novel",
@@ -83,7 +83,7 @@
   ],
   "channels": [
     { "id": "short_video_platform", "keywords": ["短视频平台"] },
-    { "id": "xiaohongshu", "keywords": ["小红书"] },
+    { "id": "social_platform", "keywords": ["社交平台"] },
     { "id": "website", "keywords": ["网站", "网页", "会员页"] },
     { "id": "obsidian", "keywords": ["Obsidian", "知识库"] }
   ],

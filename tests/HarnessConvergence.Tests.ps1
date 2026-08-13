@@ -24,7 +24,7 @@ Describe 'Harness four-project downstream convergence' {
         $matrix.business_project_count | Should -Be 4
         $matrix.runtime_root | Should -Be 'runtime'
         @($matrix.projects.id) | Should -Be @('novel_workbench', 'ai_content', 'content_audit', 'data_collection')
-        @($matrix.projects.name) | Should -Be @('小说', 'AI剪辑', '内容审计', '数据收集')
+        @($matrix.projects.name) | Should -Be @('小说', 'AI内容创作', '内容审计', '数据收集')
         @($registry.projects.id) | Should -Be @($matrix.projects.id)
         @($registry.projects.name) | Should -Be @($matrix.projects.name)
         @($matrix.projects.id) | Should -Not -Contain 'video_workbench'
@@ -72,7 +72,7 @@ Describe 'Harness four-project downstream convergence' {
         $plan = $planText | ConvertFrom-Json -Depth 100
 
         $planText | Test-Json -SchemaFile $schema | Should -BeTrue
-        @($plan.constraints.business_projects) | Should -Be @('小说', 'AI剪辑', '内容审计', '数据收集')
+        @($plan.constraints.business_projects) | Should -Be @('小说', 'AI内容创作', '内容审计', '数据收集')
         $initialized.state | Should -Be 'draft'
         $advanced.state | Should -Be 'waiting_for_approval'
         $advanced.valid | Should -BeTrue

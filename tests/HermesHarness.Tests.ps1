@@ -43,8 +43,8 @@ function New-TestTaskContract {
                 step_id = "step-1"
                 project_id = "video_workbench"
                 project_name = "视频剪辑工作流"
-                project_root = "C:\\work\\sports"
-                project_memory = "C:\\work\\sports\\00_项目记忆"
+                project_root = "<workspace-root>\\sports"
+                project_memory = "<workspace-root>\\sports\\00_项目记忆"
                 matched_domains = @("sports", "video")
                 matched_actions = @("create")
                 depends_on = @()
@@ -121,8 +121,8 @@ Describe "Hermes Harness public seams" {
       "id": "video_workbench",
       "name": "视频剪辑工作流",
       "status": "active",
-      "root_path": "C:\\work\\sports",
-      "memory_path": "C:\\work\\sports\\00_项目记忆",
+      "root_path": "<workspace-root>\\sports",
+      "memory_path": "<workspace-root>\\sports\\00_项目记忆",
       "routable": true,
       "domains": ["sports", "video"],
       "actions": ["analyze", "create"]
@@ -177,8 +177,8 @@ Describe "Hermes Harness public seams" {
       "id": "video_workbench",
       "name": "视频剪辑工作流",
       "status": "active",
-      "root_path": "C:\\work\\sports",
-      "memory_path": "C:\\work\\sports\\00_项目记忆",
+      "root_path": "<workspace-root>\\sports",
+      "memory_path": "<workspace-root>\\sports\\00_项目记忆",
       "routable": true,
       "domains": ["sports", "video"],
       "actions": ["analyze", "create", "optimize"]
@@ -226,8 +226,8 @@ Describe "Hermes Harness public seams" {
       "id": "video_workbench",
       "name": "视频剪辑工作流",
       "status": "active",
-      "root_path": "C:\\work\\sports",
-      "memory_path": "C:\\work\\sports\\00_项目记忆",
+      "root_path": "<workspace-root>\\sports",
+      "memory_path": "<workspace-root>\\sports\\00_项目记忆",
       "routable": true,
       "domains": ["sports", "video"],
       "actions": ["create", "publish"]
@@ -439,8 +439,8 @@ Describe "Hermes Harness public seams" {
                         step_id = "step-1"
                         project_id = "video_workbench"
                         project_name = "视频剪辑工作流"
-                        project_root = "C:\\work\\sports"
-                        project_memory = "C:\\work\\sports\\00_项目记忆"
+                        project_root = "<workspace-root>\\sports"
+                        project_memory = "<workspace-root>\\sports\\00_项目记忆"
                         matched_domains = @("sports", "video")
                         matched_actions = @("create")
                         depends_on = @()

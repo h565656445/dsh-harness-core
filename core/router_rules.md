@@ -13,7 +13,7 @@ Runner 从需求中提取：
 
 - `domains`：sports、video、ai_video、novel、website、knowledge、research、content_distribution、data。
 - `actions`：query、analyze、create、update、publish、delete、pay、account_change、change_core_rules。
-- `channels`：short_video_platform、xiaohongshu、website、obsidian。
+- `channels`：short_video_platform、social_platform、website、obsidian。
 - 明确约束：当前支持秒数。
 - 模糊指代与副作用。
 

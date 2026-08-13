@@ -7,7 +7,7 @@
       "domains": ["novel"],
       "actions": ["analyze", "create", "update"]
     },
-    "AI剪辑": {
+    "AI内容创作": {
       "id": "ai_content",
       "routable": true,
       "domains": ["sports", "ai_video"],
