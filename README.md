@@ -9,7 +9,7 @@
 
 **作者 / Author**: [h565656445](https://github.com/h565656445)
 
-**合作 / Collaboration**: 本人经济拮据，如有项目可以一起合作，欢迎联系。微信：`wohaishihenshuaide`。I am currently financially struggling; if you have projects, let's collaborate. WeChat: `wohaishihenshuaide`.
+**合作 / Collaboration**: 如有项目可以一起合作，欢迎联系。微信：`wohaishihenshuaide`。If you have projects, let's collaborate. WeChat: `wohaishihenshuaide`.
 
 
 ---
